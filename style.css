@@ -1,6 +1,17 @@
-h1 {
+body {
+    background-color:gold;
+  }
+  
+  h1 {
+    color: red;
+    text-align: center;
+  }
+  h2 {
+    color:rgb(183, 126, 52);
     text-align:center;
-}
-h2 {
-    text-align: right;
-}
+  }
+  p {
+    color:cornflowerblue;
+    font-family: Verdana;
+    font-size: 20px;
+  }
