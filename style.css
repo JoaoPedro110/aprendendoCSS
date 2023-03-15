@@ -5,6 +5,9 @@ body {
   h1 {
     color: rgb(20, 225, 50);
     text-align: center;
+    background-color:rgba(255, 255, 0, 0.47);
+    border-color: rgba(0, 0, 0, 0.747);
+
   }
   h2 {
     color:rgb(183, 126, 52);
