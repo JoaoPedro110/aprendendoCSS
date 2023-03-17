@@ -38,7 +38,18 @@ body {
   padding: 10px;
   margin-bottom: 8px;
 }
-
+.link {
+    text-align: center;
+    font-size: 24px;
+    text-transform: lowercase;
+    border-style: solid;
+    border-color: red;
+}
+.link a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
 /*ID*/
 #para {
   font-family: verdana;
@@ -46,14 +57,16 @@ body {
   text-align: justify;
 }
 /*ID*/
-  #lorem {
-    border: 5px solid #136419;
-    border-width: 10px 4px;
-    border-radius: 25px;
-    border-left: 2px;
-    border-right: 2px;
-    padding: 10px;
-    margin-bottom: 8px;
-    text-shadow: 1px 2px 7px rgb(0, 255, 94);
-    
-  }
+#lorem {
+  border: 5px solid #136419;
+  border-width: 10px 4px;
+  border-radius: 25px;
+  border-left: 2px;
+  border-right: 2px;
+  padding: 10px;
+  margin-bottom: 8px;
+  text-shadow: 1px 2px 7px rgb(0, 255, 94); 
+}
+#href {
+  text-align: center;
+}
